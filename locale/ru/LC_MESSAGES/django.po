@@ -1,0 +1,177 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-20 18:06+0300\n"
+"PO-Revision-Date: 2016-01-20 15:18+0000\n"
+"Last-Translator: b'  <>'\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Translated-Using: django-rosetta 0.7.8\n"
+
+#: task/apps.py:7
+msgid "unicom24: task"
+msgstr "Юником24: тестовое задание №4"
+
+#: task/models.py:8
+msgid "superuser"
+msgstr "суперпользователь"
+
+#: task/models.py:9
+msgid "superusers"
+msgstr "суперпользователи"
+
+#: task/models.py:17 task/models.py:101
+msgid "partner"
+msgstr "партнёр"
+
+#: task/models.py:18
+msgid "partners"
+msgstr "партнёры"
+
+#: task/models.py:26 task/models.py:72
+msgid "credit organization"
+msgstr "кредитная организация"
+
+#: task/models.py:27
+msgid "credit organizations"
+msgstr "кредитные организации"
+
+#: task/models.py:35 task/models.py:134
+msgid "credit proposal"
+msgstr "кредитное предложение"
+
+#: task/models.py:36
+msgid "credit proposals"
+msgstr "кредитные предложения"
+
+#: task/models.py:44
+msgid "consumer"
+msgstr "потреб"
+
+#: task/models.py:45
+msgid "mortgage"
+msgstr "ипотека"
+
+#: task/models.py:46
+msgid "car loan"
+msgstr "автокредит"
+
+#: task/models.py:47
+msgid "business"
+msgstr "КМСБ"
+
+#: task/models.py:50 task/models.py:84 task/models.py:123
+msgid "creation datetime"
+msgstr "дата и время создания"
+
+#: task/models.py:53 task/models.py:87
+msgid "modification datetime"
+msgstr "дата и время изменения"
+
+#: task/models.py:56
+msgid "rotation begin datetime"
+msgstr "дата и время начала ротации"
+
+#: task/models.py:59
+msgid "rotation end datetime"
+msgstr "дата и время окончания ротации"
+
+#: task/models.py:62
+msgid "proposal name"
+msgstr "название предложения"
+
+#: task/models.py:64
+msgid "proposal type"
+msgstr "тип предложения"
+
+#: task/models.py:67
+msgid "minimum scoring points"
+msgstr "минимальный скоринговый балл"
+
+#: task/models.py:69
+msgid "maximum scoring points"
+msgstr "максимальный скоринговый балл"
+
+#: task/models.py:81 task/models.py:130
+msgid "client profile"
+msgstr "анкета клиента"
+
+#: task/models.py:82
+msgid "client profiles"
+msgstr "анкеты клиентов"
+
+#: task/models.py:90
+msgid "full name"
+msgstr "ФИО"
+
+#: task/models.py:92
+msgid "birthday"
+msgstr "дата рождения"
+
+#: task/models.py:94
+msgid "phone"
+msgstr "номер телефона"
+
+#: task/models.py:96
+msgid "passport"
+msgstr "номер паспорта"
+
+#: task/models.py:98
+msgid "scoring points"
+msgstr "скоринговый балл"
+
+#: task/models.py:110
+msgid "credit application"
+msgstr "заявка в кредитную организацию"
+
+#: task/models.py:111
+msgid "credit applications"
+msgstr "заявки в кредитные организации"
+
+#: task/models.py:118
+msgid "new"
+msgstr "новая"
+
+#: task/models.py:119
+msgid "sent"
+msgstr "отправлена"
+
+#: task/models.py:120
+msgid "recieved"
+msgstr "получена"
+
+#: task/models.py:126
+msgid "sent datetime"
+msgstr "дата и время отправки"
+
+#: task/models.py:137
+msgid "status"
+msgstr "статус"
+
+#: task/models.py:141
+msgid "Credit application"
+msgstr "Заявка на кредит"
+
+#: task/views.py:63
+#| msgid "credit proposals"
+msgid "Credit proposal id is not exist."
+msgstr "Указанный credit_proposal_id не существует."
+
+#: task/views.py:66
+msgid "Credit proposal id is absent or not correct."
+msgstr "Параметр credit_proposal_id не верен или отсутствует."
+
+#: task/views.py:81
+msgid "Credit application successfully sent."
+msgstr "Заявка на кредит успешно отправлена."
